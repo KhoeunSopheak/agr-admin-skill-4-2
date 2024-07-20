@@ -37,7 +37,7 @@ function Farmers() {
     <th>Gender</th>
     <th>Phone</th>
     <th>Source</th>
-    <th>Province</th>
+    <th>Destrict</th>
     <th>Active</th>
   </tr>
   </thead>

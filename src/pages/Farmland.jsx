@@ -1,7 +1,6 @@
 import React,{ useState,useEffect} from "react";
 import API_BASE_URL from '../config'
-import Button from "../components/Button";
-import ButtonDestrict from "../components/BottonDestrict";
+import ButtonActive from "../components/ButtonActive";
 
 function Farmland() {
   const [farmlands,setFarmlands]=useState([]);
@@ -21,7 +20,7 @@ function Farmland() {
   return (
     <>
     <div className="btn">
-      <Button/><ButtonDestrict/>
+      <ButtonActive/>
         </div>
        <table>
       <thead>

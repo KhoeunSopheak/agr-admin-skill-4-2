@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import API_BASE_URL from '../config';
-import Button from "../components/Button";
 import '../styles/Table.css'
-import ButtonDestrict from '../components/BottonDestrict';
+import ButtonActive from '../components/ButtonActive';
 
 const Cropcycle = () => {
 
@@ -24,7 +23,7 @@ const Cropcycle = () => {
   return (
     <>
       <div className="btn">
-      <Button/><ButtonDestrict/>
+      <ButtonActive/>
         </div>
       
       <table>

@@ -16,10 +16,12 @@ td {
 th {
     border: 1px solid #000000;
     text-align: left;
-    padding: 8px;
+    padding: 20px;
     position: sticky;
     top: 0;
     z-index: 2;
+    background-color: #3c73ff;
+    color: white;
 }
 
 tr:nth-child(even) {

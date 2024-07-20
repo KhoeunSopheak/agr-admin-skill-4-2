@@ -11,14 +11,14 @@ body {
 }
 
 .drop-down {
-    background-color: #0077ff;
+    background-color: #3300ff;
     color: white;
     padding: 15px 20px 15px 20px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
-    width: 230px;
+    width: 200px;
     position: relative;
     margin-top: 20px;
 

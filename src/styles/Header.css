@@ -4,9 +4,22 @@ header {
     border: 2px solid black;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-radius: 5px;
     font-size: 1.5rem;
     padding: 10px;
     color: rgb(77, 214, 214);
     font-weight: bold;
+}
+
+/* header {
+    position: sticky;
+    top: 0;
+} */
+
+#detail {
+    position: sticky;
+    top: 0;
+    overflow: scroll;
+    z-index: 2;
 }
